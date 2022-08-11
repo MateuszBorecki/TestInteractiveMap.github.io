@@ -1,21 +1,32 @@
 body{
-    background-color: green;  
+    background-image:linear-gradient(to left top, rgb(9, 255, 0), rgb(4, 44, 14));;  
   }
   .tohide{
     background-color: slategrey;    
     text-align: center;
     position: absolute;
-    margin: 0 auto;
+    margin: 0 auto;    
+    text-size-adjust: 100%;
+    font-family: 'Rubik Distressed', cursive;
+    border-style: solid;
+    border-radius: 3%;        
   }
   .Jacobs-txt{
-    top: 520px;
-    left: 100px;
+    top: 80%;
+    left: 40%;    
+    font-size: 2vh;     
   }
   .Wawel-txt{
-    top: 330px;
-    left: 120px;
+    top: 50%;
+    left: 48%;
+    font-size: 2vh;
   }
   .Rynek-txt{
-    top: 150px;
-    left: 140px;
+    top: 23%;
+    left: 46%;
+    font-size: 2vh;
+  }
+  .Mapa{
+    width: 100%;
+    height: 100%;    
   }
